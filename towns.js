@@ -25,9 +25,9 @@ function addTown() {
 	$('#towns').append($('<option>').text(townName));
 	$('#result').text(townName + " added.");
 }
-<<<<<<< HEAD
+
 //create conflict
-=======
+
 function shuffleTowns() {
 	let towns = $('#towns option').toArray();
 	$('#towns').empty();
