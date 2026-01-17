@@ -24,3 +24,5 @@ function addTown() {
 	$('#towns').append($('<option>').text(townName));
 	$('#result').text(townName + " added.");
 }
+//create conflict
+
